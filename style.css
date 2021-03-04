@@ -1,4 +1,36 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color:black;
+}
+h1{
+    text-align: center;
+    font-family: verdana;
+    color:grey;
+    padding:initial;
+}
+/* i tag for highlight integer returns */
+i {
+    background-color: yellow;
+    font-style: normal;
+}
+/* calculator box layout */
+.maindiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    width: 480px;
+    padding: 20px;
+    border-radius: 25px;
+    
+}
+/* spacing for calculator text  */
+.data{
+    padding-left: 100px;
+    padding-right: 60px;
+}
 
 

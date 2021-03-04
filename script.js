@@ -28,5 +28,5 @@ function compute()
 function returnRate(){
     rate = Number(document.getElementById("rate").value);
     result = document.getElementById('return');
-    result.innerHTML= rate
+    result.innerHTML= rate + '%
 }

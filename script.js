@@ -21,12 +21,12 @@ function compute()
     result.innerHTML = 'If you deposit ' + `<i>${principal}</i>` + ',<br>'
                      + 'at an interest rate of ' + `<i>${rate}%</i>` + '.<br>'
                      + 'You will receive an amount of ' + `<i>${interest}</i>`+ ',<br>'
-                     + 'in the year ' + `<i>${year}</i>`;
+                     + 'in the year ' + `<i>${year}</i>`
     }
 }
 // function to update rangeslider value 
 function returnRate(){
-    rate = Number(document.getElementById("rate").value);
-    result = document.getElementById('return');
-    result.innerHTML= rate + '%;
+    rate = Number(document.getElementById("rate").value)
+    result = document.getElementById('return')
+    result.innerHTML= rate + '%';
 }
